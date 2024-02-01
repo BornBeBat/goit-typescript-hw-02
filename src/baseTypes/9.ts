@@ -12,7 +12,7 @@ type Page = {
   }
 }
 
-const page1 = {
+const page1: Page = {
   title: 'The awesome page',
   likes: 100,
   accounts: ['Max', 'Anton', 'Nikita'],
@@ -23,11 +23,11 @@ const page1 = {
   }
 }
 
-const page2 = {
+const page2: Page = {
   title: 'Python or Js',
   likes: 5,
   accounts: ['Alex'],
   status: 'close',
 }
 
-export {page1, page2};
+export { page1, page2 };
