@@ -7,4 +7,9 @@ let empty: null = null;
 let notInitialize: any;
 let callback = (a:number):number => { return 100 + a };
 
-export {};
+export {age,
+name,
+toggle,
+empty,
+notInitialize,
+callback};
